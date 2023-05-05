@@ -1,0 +1,85 @@
+header {
+    background-color: #a1859e;
+    padding: 5px;
+}
+
+nav {
+    background-color: #eccee8;
+    font-family: myriad pro;
+    text-align: center;
+    padding: 5px;
+}
+
+nav a {
+    color: black;
+    padding: 30px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgba(0, 0, 0, 0.636)
+}
+
+body {
+    font-family: myriad pro;
+    text-align: center;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    background-color: #b2a3b0;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: myriad pro;
+    text-align: center;
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+#dados {
+    color: black;
+    background-color: #eccee8;
+    font-family: myriad pro;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px 25px;
+    cursor: pointer;
+    border: none;
+}
+
+#erro {
+    color: white;
+    background-color: red;
+    padding: 10px 10px;
+    margin: 25px 0px;
+    border-radius: 10px;
+    border: none;
+    display: none;
+}
+
+#container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.area-grafico {
+    height: 450px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#centro{
+    width: 100%;
+}
+
+/***/
+
+@media (max-width: 1200px) {
+    #x {
+    width: 1200px;
+}
+}
